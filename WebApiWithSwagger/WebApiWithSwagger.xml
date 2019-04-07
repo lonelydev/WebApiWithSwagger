@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiWithSwagger</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiWithSwagger.Controllers.ValuesController">
+            <summary>
+            Awesome value controller!
+            </summary>
+        </member>
+        <member name="M:WebApiWithSwagger.Controllers.ValuesController.Get">
+            <summary>
+            Get all values!
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiWithSwagger.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get a specific value
+            </summary>
+            <param name="id">id of the value</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiWithSwagger.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Add new value
+            </summary>
+            <param name="value"> value as a string</param>
+        </member>
+        <member name="M:WebApiWithSwagger.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            update an existing value
+            </summary>
+            <param name="id">id of the value</param>
+            <param name="value">value of the value as a string</param>
+        </member>
+        <member name="M:WebApiWithSwagger.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            delete an existing value
+            </summary>
+            <param name="id">id of the value that you want to delete</param>
+        </member>
+    </members>
+</doc>

@@ -23,6 +23,8 @@ namespace WebApiWithSwagger
       services.AddSwaggerGen(c =>
       {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApiWithSwagger", Version = "v1" });
+        var xmlDocPath = System.AppDomain.CurrentDomain.BaseDirectory + @"WebApiWithSwagger.xml";
+        c.IncludeXmlComments(xmlDocPath);
       });
     }
 
